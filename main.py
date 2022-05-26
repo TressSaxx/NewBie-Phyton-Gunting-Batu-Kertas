@@ -12,41 +12,41 @@ while True:
     if player == computer:
         print("computer: ",computer)
         print("player: ",player)
-        print("Tie!")
+        print("Seri")
 
     elif player == "batu":
         if computer == "kertas":
             print("computer: ", computer)
             print("player: ", player)
-            print("You lose!")
+            print("Kamu Kalah!")
         if computer == "gunting":
             print("computer: ", computer)
             print("player: ", player)
-            print("You win!")
+            print("Kamu Menang!")
 
     elif player == "gunting":
         if computer == "batu":
             print("computer: ", computer)
             print("player: ", player)
-            print("You lose!")
+            print("Kamu kalah!")
         if computer == "kertas":
             print("computer: ", computer)
             print("player: ", player)
-            print("You win!")
+            print("Kamu Menang!")
 
     elif player == "kertas":
         if computer == "gunting":
             print("computer: ", computer)
             print("player: ", player)
-            print("You lose!")
+            print("Kamu Kalah!")
         if computer == "batu":
             print("computer: ", computer)
             print("player: ", player)
-            print("You win!")
+            print("Kamu Menang!")
 
-    play_again = input("Play again? (yes/no): ").lower()
+    play_again = input("Main Lagi? (Iya/Tidak): ").lower()
 
-    if play_again != "yes":
+    if play_again != "Iya":
         break
 
 print("Bye!")
